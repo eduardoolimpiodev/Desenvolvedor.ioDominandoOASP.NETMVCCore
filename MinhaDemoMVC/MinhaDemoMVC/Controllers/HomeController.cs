@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace MinhaDemoMVC.Controllers
 {
+    // A rota vazia deve estar somente em uma Controller, é indicado que fique na Controller da página incial.
     [Route("")]
     [Route("gestao-clientes")]
     public class HomeController : Controller
