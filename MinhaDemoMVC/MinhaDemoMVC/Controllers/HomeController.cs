@@ -13,6 +13,8 @@ namespace MinhaDemoMVC.Controllers
     [Route("gestao-clientes")]
     public class HomeController : Controller
     {
+        //Sobrecarga de rotas para encurtamento de navegação e passagem de parâmetro via rota
+        //para implementar a segurança ao passar o tipo de dado que a rota deve receber.
         [Route("")]
         [Route("pagina-inicial")]
         [Route("pagina-inicial/{id:int}/{categoria:guid}")]
