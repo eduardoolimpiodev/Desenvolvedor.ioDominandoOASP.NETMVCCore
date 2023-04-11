@@ -57,7 +57,7 @@ namespace MinhaDemoMVC
             {
                 routes.MapRoute(
                     name: "modulos",
-                    template: "Categoria/{controller=Home}/{action=Index}/{id?}");
+                    template: "Gestao/{controller=Home}/{action=Index}/{id?}");
 
                 routes.MapRoute(
                     name: "categoria",
