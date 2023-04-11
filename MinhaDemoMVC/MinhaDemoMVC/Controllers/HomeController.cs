@@ -27,7 +27,14 @@ namespace MinhaDemoMVC.Controllers
         [Route("politica-de-privacidade")]
         public IActionResult Privacy()
         {
-            return View();
+            //return Json("Eu sou uma string convertida para JSON. {'nome':'Eduardo'}");
+
+            //Download de arquivo.
+            var fileBytes = System.IO.File.ReadAllBytes(@"C:\Users\eduar\Documents\arquivo.txt");
+            var fileName = "ola.txt";
+            return File(fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, fileName);
+
+            //return Content("Qualquer coisa!");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
