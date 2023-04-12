@@ -32,3 +32,4 @@ C:\Users\eduar\Documents\Desenvolvedor.ioDominandoOASP.NETMVCCore\MinhaDemoMVC\M
 C:\Users\eduar\Documents\Desenvolvedor.ioDominandoOASP.NETMVCCore\MinhaDemoMVC\MinhaDemoMVC\obj\Debug\netcoreapp2.2\MinhaDemoMVC.pdb
 C:\Users\eduar\Documents\Desenvolvedor.ioDominandoOASP.NETMVCCore\MinhaDemoMVC\MinhaDemoMVC\obj\Debug\netcoreapp2.2\MinhaDemoMVC.genruntimeconfig.cache
 C:\Users\eduar\Documents\Desenvolvedor.ioDominandoOASP.NETMVCCore\MinhaDemoMVC\MinhaDemoMVC\obj\Debug\netcoreapp2.2\MinhaDemoMVC.csproj.CopyComplete
+C:\Users\eduar\Documents\Desenvolvedor.ioDominandoOASP.NETMVCCore\MinhaDemoMVC\MinhaDemoMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_AvisoGeral.cshtml.g.cs

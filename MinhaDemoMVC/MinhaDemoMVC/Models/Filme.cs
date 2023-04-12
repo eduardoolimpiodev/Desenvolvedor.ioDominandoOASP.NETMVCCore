@@ -26,7 +26,7 @@ namespace MinhaDemoMVC.Models
         [StringLength(30, MinimumLength = 3, ErrorMessage = "O Gênero precisa ter entre 3 e 30 caracteres."), Required(ErrorMessage = "O campo Gênero é obrigatório.")]
         public string Genero { get; set; }
 
-        [Range(1, 1000, ErrorMessage = "O Valor precisa ser de R$ 1 a R$ 1000,00")]]
+        [Range(1, 1000, ErrorMessage = "O Valor precisa ser de R$ 1 a R$ 1000,00")]
         [Required(ErrorMessage = "O campo Valor é obrigatório.")]
         [Column(TypeName = "decimal(18, 2)")]
         public decimal Valor { get; set; }
